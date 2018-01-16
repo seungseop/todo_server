@@ -1,18 +1,18 @@
 TODO LIST SERVER
 ================
 ## 1. 사용목적
-> ### - 공부 목적으로 테스트 해볼 수 있는 ToDoList를 만들 때 사용할 Server + DB
+* 공부 목적으로 테스트 해볼 수 있는 ToDoList를 만들 때 사용할 Server + DB
 ## 2. 구축환경
-> ### 1) NodeJS(+express)
-> ### 2) MongoDB(+Mongoose)
+* NodeJS(+express)
+* MongoDB(+Mongoose)
 ## 3. 사용환경
-> ### 1) 서버 PORT : process.env.PORT || 8080;
-> ### 2) MongoDB 접속정보
->> #### 'mongodb://localhost:27017/todoApp'
->> #### (1) PORT : 27017
->> #### (2) 컬렉션 : todoApp
-> ### 3) API 정보(REST API)
->> #### (1) GET(READ) : '/api/todolist'
->> #### (2) POST(CREATE) : '/api/todolist'
->> #### (3) PUT(UPDATE) : '/api/todolist/:todo' <<업데이트 예정>>
->> #### (4) DELETE : '/api/todolist/:todo' <<업데이트 예정>>
+* 서버 PORT : process.env.PORT || 8080;
+* MongoDB 접속정보
+  * 'mongodb://localhost:27017/todoApp'
+  *  PORT : 27017
+  * 컬렉션 : todoApp
+* API 정보(REST API)
+  * GET(READ) : '/api/todolist'
+  * POST(CREATE) : '/api/todolist'
+  * PUT(UPDATE) : '/api/todolist/:todo' <<업데이트 예정>>
+  * DELETE : '/api/todolist/:todo' <<업데이트 예정>>
